@@ -90,6 +90,7 @@ metadata:
     name: database
     node: node1
 spec:
+  clusterIP: None
   ports:
     - port: 5432
   selector:
